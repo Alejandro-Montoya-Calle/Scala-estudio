@@ -1,6 +1,6 @@
 object ParImpar {
   def main(args: Array[String]): Unit = {
-    // Solicitar al usuario que ingrese un número
+    // Solicitar al usuario que ingrese un número diferente de 0
     println("Por favor, ingresa un número entero (distinto de 0):")
     var numero = scala.io.StdIn.readInt()
 
